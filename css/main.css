@@ -1,0 +1,924 @@
+@font-face {
+  font-family: "TruenoLt";
+  src: url("../css/fonts/trueno/TruenoLt.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TruenoBd";
+  src: url("../css/fonts/trueno/TruenoBd.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TruenoUltLt";
+  src: url("../css/fonts/trueno/TruenoUltLt.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  margin: 0 auto;
+  width: 66%;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+* {
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*
+------------------NAVBAR------------
+*/
+.navbar {
+  color: white;
+  font-family: TruenoLt;
+  font-weight: 400;
+}
+.navbar__with__login {
+  display: flex;
+  align-items: center;
+  height: 5.387vh;
+  justify-content: space-around;
+  background-color: #472424;
+}
+.nav__elements {
+  margin-left: auto;
+}
+.menu__link + .menu__link {
+  margin-left: 2vw;
+}
+
+.nav__btn {
+  background-color: #ff7373;
+  height: 5.387vh;
+  border: none;
+  color: white;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  cursor: pointer;
+}
+.nav__btn__add {
+  background-color: #472424;
+  border-left: 1px solid #593939;
+}
+.nav__element + .nav__element {
+  margin-left: 0.5vw;
+}
+.navbar__with__logo {
+  height: 7.415vh;
+  background-color: #623232;
+}
+.nav_part2 {
+  width: 66%;
+  margin: 0 auto;
+  height: 7.415vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.logo {
+  width: 182px;
+  height: 24px;
+}
+.links {
+  font-size: 1.231rem;
+  margin-left: auto;
+}
+.btn__logo {
+  cursor: pointer;
+  height: 7.415vh;
+  color: white;
+  background-color: #623232;
+  border: none;
+}
+.btn__logo:hover {
+  background-color: #ff7373;
+}
+
+/*
+------------------MAIN------------
+*/
+
+main {
+  background-color: #f0efee;
+  display: flex;
+  color: #8a8784;
+  font-family: TruenoLt;
+  font-weight: 400;
+  line-height: 26px;
+}
+.description {
+  font-size: 16px;
+  flex: 2;
+  margin-left: 3vw;
+  margin-bottom: 10%;
+}
+.nike_air_max {
+  flex: 1;
+  max-height: 100%;
+  max-width: 60%;
+  align-self: center;
+  margin-right: auto;
+}
+.description h2 {
+  color: #623232;
+  font-size: 4.375em;
+  font-family: TruenoUltLt;
+  line-height: 1.2;
+  font-weight: 800;
+}
+.descript {
+  font-size: 1em;
+}
+.description h3 {
+  font-weight: 800;
+  color: #ff7373;
+  font-size: 3.125em;
+  font-family: TruenoUltLt;
+}
+.button_browse_variants {
+  display: inline-block;
+  padding: 0.5vw;
+  font-family: TruenoBd;
+  background-color: #ff7373;
+  color: white;
+  text-align: center;
+  line-height: 3;
+  border-radius: 20px;
+}
+.button_browse_variants a {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#description {
+  color: #623232;
+  font-family: TruenoLt;
+  font-size: 1.875em;
+}
+
+/*
+------------------COLLECTION------------
+*/
+.block__collection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 2.3rem;
+  margin-top: 3.846rem;
+  height: 41.5rem;
+}
+.card1 {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2;
+  background: url("../img/Nike_Kyrie_Hero_Pair-01_hd_1600@2x.jpg") center
+    no-repeat / cover;
+  height: 41.5rem;
+}
+.logo_kyrie {
+  margin-left: 7%;
+}
+.div1 {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+}
+.p1 {
+  color: #ffffff;
+  font-family: TruenoLt;
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+.p2 {
+  color: #4bd8cd;
+  font-family: TruenoBd;
+  font-size: 3rem;
+}
+.button_view_collection {
+  border-radius: 30px;
+  margin-top: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 16.231rem;
+  height: 3.692rem;
+  text-align: center;
+  background-color: #4bd8cd;
+  line-height: 4;
+}
+.button_view_collection a {
+  color: #000000;
+  font-family: TruenoBd;
+  font-weight: 400;
+}
+.card2 {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  background-color: #ff7373;
+  display: flex;
+}
+.discover__desc {
+  margin-left: 2.462rem;
+  margin-top: 4.538rem;
+  text-align: center;
+}
+.discover__desc,
+.discover__desc > span {
+  color: #ffffff;
+  font-family: "TruenoLt";
+  font-size: 30px;
+  font-weight: 400;
+}
+.discover__desc > span {
+  font-family: "TruenoBd";
+}
+.button_discover {
+  margin-top: 2rem;
+  background-color: #623232;
+  width: 145px;
+  height: 48px;
+  text-align: center;
+  line-height: 4;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button_discover > a {
+  color: #ffffff;
+  font-family: "TruenoBd";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* ____________CARD3  ____________           */
+
+.card3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 1.5rem;
+}
+.card3_1 {
+  height: 18rem;
+  background-color: #2d2f2e;
+  text-align: center;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  background: url("../img/best_for_athletes.jpg") no-repeat top center / cover;
+}
+.card3_1 p {
+  color: #ffffff;
+  font-family: "TruenoLt";
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 10rem;
+}
+.card3_1 p span {
+  color: #ff7373;
+  font-family: "TruenoBd";
+}
+.card3_2 {
+  height: 18rem;
+  background-color: #cecece;
+  text-align: center;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  display: flex;
+  flex-direction: column;
+}
+.card3_2 p {
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  color: #6b7072;
+  font-family: "TruenoLt";
+  font-size: 30px;
+  font-weight: 400;
+}
+.card3_2 p span {
+  font-family: "TruenoBd";
+  color: #ffffff;
+  font-size: 30px;
+}
+.card3_2 img {
+  height: 45%;
+}
+/*
+------------------ENDGAME------------
+*/
+.toolbar {
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.picks_navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.picks_navigation li a {
+  color: #a58888;
+  font-family: "TruenoLt";
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.picks_navigation_li + .picks_navigation_li {
+  margin-left: 5rem;
+}
+
+.picks_navigation li a:hover {
+  color: #160909;
+}
+.cards {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.card + .card {
+  margin-left: 15px;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 auto;
+  height: 380px;
+  border: 1px solid #e0dfde;
+  background-color: #ffffff;
+}
+
+.price_new {
+  color: #ff7373;
+}
+.card_price {
+  line-height: 3;
+  width: 100%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.card_image {
+  margin-top: 15%;
+  max-width: 100%;
+  height: auto;
+}
+.price_old {
+  color: #8a8784;
+  font-size: 16px;
+  font-family: "TruenoLt";
+  text-decoration: line-through;
+}
+.discont {
+  margin-left: 30%;
+  margin-right: 0;
+  background-color: #ff7373;
+  padding: 8px 10px;
+  color: #ffffff;
+  font-family: "TruenoBd";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.just_ns {
+  background-color: #ff7373;
+  margin-top: 100px;
+  height: 200px;
+}
+.addon {
+  color: #ffffff;
+  font-family: "TruenoLt";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.button_inqury {
+  margin-left: auto;
+  background-color: #623232;
+  padding: 17px 30px;
+  float: right;
+}
+.button_inqury > a {
+  color: #ffffff;
+  font-family: "TruenoBd";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.textytext {
+  padding: 42px;
+  color: #ffffff;
+  font-family: "TruenoBd";
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.price_new {
+  font-family: "TruenoLt";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.card_title {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  color: #8a8784;
+  font-family: "TruenoLt";
+  padding-left: 10%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.men {
+  font-family: "TruenoBd";
+}
+.converse {
+  font-family: "TruenoLt";
+}
+.pen15 {
+  color: #bdb9b5;
+  font-family: "TruenoLt";
+  font-size: 13px;
+}
+.logos {
+  width: 100%;
+  margin-top: 10rem;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+.comments_bg {
+  width: 100%;
+  height: 570px;
+  background-color: #472424;
+  background-image: url("../img/glenn-carstens-peters-203007.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dudes {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  margin-top: 5%;
+}
+.opac {
+  opacity: 0.5;
+}
+.img_user {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+}
+.user_name {
+  color: #ffffff;
+  font-family: "Trueno Bd";
+  font-size: 16px;
+  font-weight: 400;
+}
+.user + .user {
+  margin-left: 20%;
+}
+.user {
+  width: 250px;
+}
+.comment_itself {
+  display: block;
+  margin-top: 35px;
+}
+.comment_itself > p {
+  text-indent: 10%;
+  color: #ffffff;
+  font-family: "TruenoLt";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 70px 47px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #593a3a;
+}
+.comment_block {
+  display: flex;
+  flex-direction: column;
+}
+.news_title {
+  margin-top: 80px;
+  display: block;
+  color: #623232;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "TruenoBd";
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.news_cards {
+  margin-top: 6%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.news_card + .news_card {
+  margin-left: 10px;
+}
+.news_card {
+  position: relative;
+  flex: 1;
+  background-color: #3d1f1f;
+}
+.comment_24 {
+  color: rgb(255, 115, 115);
+  font-family: "Trueno Lt";
+  font-size: 13px;
+}
+.news_card > img {
+  height: 100%;
+  width: 100%;
+}
+.news_card > p {
+  margin-left: 20px;
+  position: absolute;
+  top: 50%;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.footer_images {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+.piece_of_it + .piece_of_it {
+  margin-left: 10px;
+}
+/*
+------------------ENDGAME------------
+*/
+/*
+------------------FOOTER------------
+*/
+footer {
+  background-color: #623232;
+}
+.footer_images {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+.piece_of_it > p {
+  color: #ffffff;
+  font-family: "TruenoLt";
+  font-size: 16px;
+  font-weight: 400;
+}
+#last_p {
+  margin-top: 30px;
+}
+.footer_hr {
+  color: #623232;
+  opacity: 0.6;
+  width: 100%;
+}
+
+.footer_menu {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+}
+.icons {
+  width: 35%;
+}
+.footer_menu > .menu ul {
+  list-style: none;
+  font-family: "TruenoLt";
+}
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  column-gap: 1em;
+}
+.menu a {
+  color: #ffffff;
+  font-family: "TruenoLt";
+  font-size: 16px;
+  font-weight: 400;
+}
+.menu a:hover,
+.menu a:active,
+.menu a:focus {
+  color: rgb(248, 136, 136);
+}
+.menu_footer_element + .menu_footer_element {
+  margin-top: 15%;
+}
+#id1,
+#id2,
+#id3,
+#id4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ff7373;
+  font-family: "TruenoBd";
+  text-transform: uppercase;
+}
+.icon {
+  display: flex;
+  margin-top: 10px;
+}
+.menu_icon_text {
+  margin-left: 10px;
+  color: #ffffff;
+  font-family: "TruenoLt";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.menu_icon_text > span {
+  color: #ff7373;
+  font-family: "TruenoBd";
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.nav {
+  grid-column: 2 / span 1;
+}
+.categories {
+  grid-column: 3 / span 1;
+}
+.sales {
+  grid-column: 4 / span 1;
+}
+.support {
+  grid-column: 5 / span 1;
+}
+
+.last_thing_to_do {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.logo-footer {
+  float: left;
+}
+.par_foot {
+  color: #ffffff;
+  font-family: "TruenoLt";
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 auto;
+  display: inline-block;
+  margin-left: 10vw;
+  line-height: 0.2;
+}
+.foot_im {
+  float: right;
+}
+/*
+------------------FOOTER------------
+*/
+/*
+------------------MEDIA----max-width: 1200px--------
+*/
+@media (max-width: 1200px) {
+  .toolbar {
+    margin-top: 10rem;
+  }
+  .container {
+    width: 100%;
+  }
+  .nav_part2 {
+    width: 98%;
+  }
+  .nike_air_max {
+    width: 40%;
+    height: 30%;
+  }
+  .block__collection {
+    height: 30rem;
+    margin-top: 0;
+    grid-gap: 0;
+  }
+  .card3 {
+    grid-gap: 0;
+  }
+  .card1 {
+    height: 30rem;
+  }
+  .button_view_collection {
+    margin-top: 15rem;
+  }
+  .card1 {
+    height: 100%;
+  }
+  .row {
+    justify-content: flex-start;
+  }
+}
+/*
+------------------MEDIA----max-width: 800PX--------
+*/
+@media (max-width: 800px) {
+  .price_old {
+    font-size: 10px;
+  }
+  .discont {
+    font-size: 10px;
+  }
+  .price_new {
+    font-size: 10px;
+  }
+  .card + .card {
+    margin-left: 0;
+  }
+  .card {
+    width: 120px;
+    height: 120px;
+  }
+  .row {
+    justify-content: flex-start;
+  }
+  .card + .card {
+    margin-left: 1px;
+  }
+  .toolbar {
+    margin-top: 25rem;
+  }
+  * {
+    font-size: 8px;
+  }
+  .menu {
+    margin-left: 2vw;
+  }
+  .nav_part2 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .logo {
+    display: none;
+  }
+  .links {
+    font-size: 2.5vw;
+    width: 100%;
+  }
+  .nav__elements > i,
+  .nav__elements > span {
+    display: none;
+  }
+  .block__collection {
+    height: 30rem;
+    margin-top: 0;
+    grid-gap: 0;
+  }
+  .card1 {
+    height: 30rem;
+  }
+  .button_view_collection {
+    margin-top: 9rem;
+  }
+  .card1 {
+    height: 100%;
+  }
+  .discover__desc {
+    font-size: 1rem;
+  }
+  .discover__desc span {
+    font-size: 2rem;
+  }
+  .button_discover {
+    width: 50%;
+  }
+  .button_discover a {
+    font-size: 1rem;
+  }
+  .card3_2 {
+    position: relative;
+  }
+  .card3_1 p {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .card3_2 p {
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card3_2 img {
+    position: absolute;
+    top: 9.5rem;
+    left: 2rem;
+  }
+}
+/*
+------------------MEDIA----max-width: 500PX--------
+*/
+@media (max-width: 500px) {
+  .price_old {
+    font-size: 10px;
+  }
+  .discont {
+    font-size: 10px;
+    margin-left: 14px;
+  }
+  .price_new {
+    font-size: 10px;
+  }
+  .picks_navigation {
+    margin: 0;
+    padding: 0;
+  }
+  .toolbar {
+    margin-top: 40rem;
+  }
+  .card {
+    width: 100px;
+    height: 100px;
+  }
+  .picks_navigation li a {
+    font-size: 14px;
+  }
+  .nike_air_max {
+    margin-left: auto;
+    height: 40%;
+  }
+  .description {
+    font-size: 5px;
+    margin-right: auto;
+  }
+  .descript {
+    display: none;
+  }
+  main {
+    height: 200px;
+  }
+  .block__collection {
+    grid-gap: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .button_view_collection {
+    margin-top: 9rem;
+  }
+  .discover__desc {
+    font-size: 15px;
+  }
+  .discover__desc span {
+    font-size: 10px;
+  }
+  .card3_1 {
+    text-align: center;
+  }
+  .card1 {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+  .card2 {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    height: 20rem;
+  }
+  .card3 {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+  }
+  .card3_1 p {
+    margin-top: auto;
+  }
+}
+/*
+------------------MEDIA----min-width: 1800px--------
+*/
+@media (min-width: 1800px) {
+  .description {
+    font-size: 32px;
+  }
+  .button_browse_variants a {
+    font-size: 32px;
+  }
+}
